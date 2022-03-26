@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.applicationIncrease{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 236px;
+    color: #cbccd0;
+    height: 105px;
+    border: 1px solid #353434;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.05s ease-in-out; 
+}
+.application_header{
+    z-index: 4;
+    padding-left: 10px;
+}
+.application_number{
+    padding-left: 10px;
+}
+.application_insight{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    color: #8671c6 ;
+}
+.application_dots{
+    z-index: 3;
+    position: absolute;
+    padding-left: 195px;
+}
+.application_progressbar{
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+.applicationIncrease:hover .application_progressbar{
+    background-color: #3ea1f6;
+    color: white;
+    border: #3ea1f6;
+  
+
+}
+.applicationIncrease:hover .application_dots{
+    background-color: #3ea1f6;
+    color: white;
+    border: #3ea1f6;
+   
+}
+.applicationIncrease:hover .shortlisted_insight{
+    background-color: #3ea1f6;
+    color: white;
+    border: #3ea1f6;
+
+}
+.applicationIncrease:hover .percentageNumber{
+    background-color: #3ea1f6;
+    color: white;
+    border: #3ea1f6;
+   
+}
+.applicationIncrease:hover .application_header{
+    background-color: #3ea1f6;
+    color: white;
+    border: #3ea1f6;
+  
+}
+.applicationIncrease:hover .application_number{
+    background-color: #3ea1f6;
+    color: white;
+    border: #3ea1f6;
+}
+.applicationIncrease:hover .application_percentageIncrease{
+    background-color: #3ea1f6;
+    color: white;
+    border: #3ea1f6;
+ 
+}
+.applicationIncrease:hover .header{
+    background-color: #3ea1f6;
+    color: white;
+    border: #3ea1f6;
+  
+}
+.applicationIncrease:hover .number{
+    background-color: #3ea1f6;
+    color: white;
+    border: #3ea1f6;
+ 
+}
+.applicationIncrease:hover .circular_progress{
+    background-color: #3ea1f6;
+    color: white;
+    border: #3ea1f6;
+    transform: scale(1.1);
+}
+
+.applicationIncrease:hover {
+    background-color: #3ea1f6;
+    color: white;
+    border: #3ea1f6;
+    transform: scale(1.1);
+}
+

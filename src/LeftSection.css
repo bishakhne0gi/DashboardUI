@@ -1,0 +1,41 @@
+.leftSection{
+    height: 135vh;
+    display: flex;
+    flex: 0.05;
+    align-items: center;
+    padding: 0 5px;
+    border-right: 0.1px solid #cbccd0;
+    flex-direction: column;
+}
+.leftSection_logo{
+    padding-top: 15px;
+    align-items: center;    
+    justify-content: center;
+    color: #cbccd0;
+}
+.leftSection_menu{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.icon_menu{
+    display: flex;
+    padding-top: 20px;
+    color: #cbccd0;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+}
+.icon_menu:hover{
+    /* display: flex; */
+    color: #3ea1f6;
+}
+.last_icon{
+    color: #cbccd0;
+    padding-top: 180px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+}
+.last_icon:hover{
+   
+    color: #3ea1f6;
+}

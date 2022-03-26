@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.rightSection{
+    display:flex;
+    flex: 0.34;
+    flex-direction: column;
+}
+.rightSection_header{
+    padding-left: 260px;
+    height: 12px;
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.notification{
+    z-index: 4;
+    color: #cbccd0 ;
+}
+.profile_name{
+    z-index: 4;
+    padding-left: 20px;
+    color: #cbccd0;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 10px;
+}
+.right_widget{
+    display: flex;
+    flex-direction: column;
+}
+.row1_widget1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+.btn3{
+    z-index: 2;
+    background-color: #3ea1f6;
+    color: #cbccd0;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5px;
+    width: 105px;
+    margin-top: 40px;
+    height: 35px;
+    cursor: pointer;
+    transition: all 0.05s ease-in-out; 
+    padding-left: 12px ;
+}
+.btn3:hover{
+    transform: scale(1.1);
+}
+.header_search{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color: #cbccd0;
+    margin-top: 34px;
+    margin-left: 80px;
+}
+.header_search > input{
+    z-index: 7;
+    color: #cbccd0;
+    outline: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.row2_widget1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #cbccd0;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 75px;
+    border: 1px solid #353434;
+    border-radius: 10px;
+}
+.contact_pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    border-radius: 10px;
+    border-bottom: none;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    
+}
+.row3_widget1{
+    /* background-color: rgb(29, 29, 29); */
+    color: #cbccd0;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+.participation_header{
+    padding: 40px;
+    background-color: rgb(29, 29, 29);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.applications{
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.account_dp{
+    color: #cbccd0;
+}
+.details{
+    color: #cbccd0;
+    font-family: 'Montserrat', sans-serif;
+}
+.applied_for{
+    color: #3ea1f6;
+}
+.application_chat{
+    color: #cbccd0;
+    cursor: pointer;
+    transition: all 0.05s ease-in-out; 
+}
+.application_call{
+    color: #cbccd0;
+    cursor: pointer;
+    transition: all 0.05s ease-in-out; 
+}
+.application_chat:hover{
+    color: #3ea1f6;
+    transform: scale(1.1);
+}
+.application_call:hover{
+    color: #3ea1f6;
+    transform: scale(1.1);
+}
