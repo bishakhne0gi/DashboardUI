@@ -1,3 +1,8 @@
+
+![React-App](https://user-images.githubusercontent.com/50258639/160243536-ccbeaa8c-a4b4-4753-904b-7fd887910d9c.png)
+
+
+
 ### [Live Preview](https://dashboardclone1.netlify.app/)
 
 
@@ -25,3 +30,4 @@ To get a a local copy on your system:
     ```bash
     npm start
     ```
+
